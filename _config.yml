@@ -14,11 +14,11 @@ description: AI-powered creative writing.
 author:
   name:
   email:
-  twitter: # twitter username without the @ symbol
+  twitter: StoryGhostAI # twitter username without the @ symbol
 social:
   name: Hydra Template
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+    - https://www.facebook.com/Story-Ghost-105011147929311
 
 # -----
 # Build
