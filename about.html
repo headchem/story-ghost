@@ -8,8 +8,8 @@ description: We run a lean operation.
 		<li>
 			<div class="square-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
 			<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter }}">{{ person.name }}</a></div>
-			<div class="position">{{ person.position }}</div>
-			<div class="blurb">{{ person.blurb }}</div>
+			<div class="position"><p>{{ person.position }}</p></div>
+			<div class="blurb"><p>{{ person.blurb }}</p></div>
 		</li>
 	{% endfor %}
 </ul>
