@@ -69,16 +69,6 @@ defaults:
       path: "contact.html"
     values:
       full_width: true
-  -
-    scope:
-      path: "contact.html"
-    values:
-      layout: "default"
-  -
-    scope:
-      path: "terms.html"
-    values:
-      layout: "default"
 
 jekyll-archives:
   enabled:
