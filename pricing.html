@@ -1,71 +1,54 @@
 ---
 title: Pricing
-heading: Find the perfect plan for your business
-description: All plans include our award winning sales optimization solution to track your sales in real time.
+heading: We're afraid of the dark!
+description: Help us keep the lights on.
 pricing_table:
-  - name: Basic
+  - name: Free
     color: "#8e8e8e"
     features:
-      - text: $25 per month
+      - text: $0 per month
         highlight: true
-      - text: Up to 5 users
+      - text: 14-day free trial of all premium features
+        highlight: true
+      - text: Write your stories and share with your readers
         highlight: false
-      - text: Basic lead scoring
+      - text: Structural prompts and advice
         highlight: false
-      - text: CRM
+      - text: Stay organized with chapter outlines
         highlight: false
-      - text: Basic reporting
+      - text: Mobile mode + dark mode
         highlight: false
-      - text: Sales map
+      - text: Download your story
         highlight: false
     call_to_action:
-      link: http://mysite.com?plan=basic
+      link: https://www.storyghost.app
       text: Get started
-  - name: Pro
-    color: "#4a4a4a"
+  - name: Premium
+    color: "#412277"
     features:
-      - text: $99 per month
+      - text: $7 per month or $15 per 3 months
         highlight: true
-      - text: Everything in Basic
+      - text: 14-day free trial of all premium features
+        highlight: true
+      - text: Everything in the Free tier
         highlight: false
-      - text: Up to 25 users
+      - text: AI-powered autocomplete
         highlight: false
-      - text: Advanced lead scoring
+      - text: Visual thesaurus of your words
         highlight: false
-      - text: Pipeline management
-        highlight: false
-      - text: Advanced reporting
+      - text: Automatically rephrase sentences
         highlight: false
     call_to_action:
-      link: http://mysite.com?plan=pro
+      link: https://www.storyghost.app
       text: Get started
-  - name: Professional
-    color: "#000000"
-    features:
-      - text: $299 per month
-        highlight: true
-      - text: Everything in Basic and Pro
-        highlight: false
-      - text: Up to 100 users
-        highlight: false
-      - text: Campaign builder
-        highlight: false
-      - text: Machine learning
-        highlight: false
-      - text: Calendar
-        highlight: false
-    call_to_action:
-      link: http://mysite.com?plan=professional
-      text: Get started
+
 faq:
   - question: What types of payment do you accept?
-    answer: Credit cards including MasterCard, Visa or American Express.
-  - question: Can I change my plan at a later time?
-    answer: Yes, you can upgrade and downgrade your plan at anytime.
-  - question: Do you offer pricing for nonprofit organizations?
-    answer: Yes, send us a message and we'll set you up on our nonprofit pricing.
+    answer: We partner with Stripe.com, which accepts credit cards including MasterCard, Visa or American Express.
+  - question: Can I change my plan later?
+    answer: Yes, upgrade or downgrade your plan at anytime.
   - question: Questions?
-    answer: Contact us for any further questions at <a href="#">john@business.com</a>.
+    answer: <a href="https://storyghost.ai/contact/">We're friendly folks who'd love to chat!</a>.
 ---
 <div class="plans">
 	{% for plan in page.pricing_table %}
