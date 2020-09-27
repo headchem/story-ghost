@@ -1,3 +1,7 @@
+to run on localhost:
+
+bundle exec jekyll serve
+
 # Hydra
 
 Marketing site template for Jekyll. Browse through a [live demo](https://proud-alligator.cloudvent.net/).
