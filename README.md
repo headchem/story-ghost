@@ -2,6 +2,8 @@ to run on localhost:
 
 bundle exec jekyll serve
 
+then open localhost:4000 in your browser
+
 # Hydra
 
 Marketing site template for Jekyll. Browse through a [live demo](https://proud-alligator.cloudvent.net/).
