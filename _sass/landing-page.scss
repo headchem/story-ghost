@@ -47,6 +47,9 @@ padding-bottom: 50px;
 	}
 }
 
+strong {
+	font-weight: bold;
+}
 
 @media #{$desktop} {
 	.flex {
