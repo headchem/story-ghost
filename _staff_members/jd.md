@@ -1,7 +1,7 @@
 ---
-name: JD
-position: Ringleader
-image_path: https://source.unsplash.com/collection/139386/601x601?a=.png
+name: John David Parsons
+position: Conductor
+image_path: /images/boo_slim.svg
 twitter: StoryGhostAI
 blurb: Let me tell you a story... about machine learning!
 ---
