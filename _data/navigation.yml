@@ -2,10 +2,10 @@
 #   link: /pricing/
 #   new_window: false
 #   highlight: false
-- name: User Guide
-  link: /guide/
-  new_window: false
-  highlight: false
+#- name: User Guide
+#  link: /guide/
+#  new_window: false
+#  highlight: false
 # - name: Plotter
 #   link: https://www.storyghost.app/plotter/
 #   new_window: true
